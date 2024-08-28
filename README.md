@@ -12,5 +12,5 @@ Student Info
 
 * Name: *Nguyen Trong Nghia*
 * ID: *BA12-138*
-* Group ID: *Your Group ID here*
+* Group ID: *16*
 * Project Name: *Your Project Name here*
