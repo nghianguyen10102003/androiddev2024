@@ -25,7 +25,7 @@
                 android:layout_height="match_parent"
                 android:paddingLeft="8px"
                 android:paddingRight="8px"
-                android:text="Mon"
+                android:text="@string/Monday"
                 android:textSize="20sp"
                 android:gravity="center"
                 android:fontFamily="sans-serif"/>
@@ -40,7 +40,7 @@
                 android:layout_width="109dp"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
-                android:text="Showers with Sun\n22C-26C"
+                android:text="@string/clear"
                 android:paddingLeft="19px"
                 android:textSize="14sp"/>
         </LinearLayout>
@@ -56,7 +56,7 @@
                 android:layout_height="match_parent"
                 android:paddingLeft="8px"
                 android:paddingRight="8px"
-                android:text="Tue"
+                android:text="@string/Tuesday"
                 android:textSize="20sp"
                 android:gravity="center"
                 android:fontFamily="sans-serif"/>
@@ -71,7 +71,7 @@
                 android:layout_width="109dp"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
-                android:text="Showers with Sun\n22C-26C"
+                android:text="@string/clear"
                 android:paddingLeft="19px"
                 android:textSize="14sp"/>
         </LinearLayout>
@@ -87,7 +87,7 @@
                 android:layout_height="match_parent"
                 android:paddingLeft="8px"
                 android:paddingRight="8px"
-                android:text="Wed"
+                android:text="@string/Wednesday"
                 android:textSize="20sp"
                 android:gravity="center"
                 android:fontFamily="sans-serif"/>
@@ -102,7 +102,7 @@
                 android:layout_width="109dp"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
-                android:text="Showers with Sun\n22C-26C"
+                android:text="@string/clear"
                 android:paddingLeft="19px"
                 android:textSize="14sp"/>
         </LinearLayout>
@@ -118,7 +118,7 @@
                 android:layout_height="match_parent"
                 android:paddingLeft="8px"
                 android:paddingRight="8px"
-                android:text="Thu"
+                android:text="@string/Thursday"
                 android:textSize="20sp"
                 android:gravity="center"
                 android:fontFamily="sans-serif"/>
@@ -133,7 +133,7 @@
                 android:layout_width="109dp"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
-                android:text="Showers with Sun\n22C-26C"
+                android:text="@string/clear"
                 android:paddingLeft="19px"
                 android:textSize="14sp"/>
         </LinearLayout>
@@ -152,7 +152,7 @@
                 android:gravity="center"
                 android:paddingLeft="8px"
                 android:paddingRight="8px"
-                android:text="Fri"
+                android:text="@string/Friday"
                 android:textSize="20sp" />
 
             <View
@@ -165,7 +165,7 @@
                 android:layout_width="109dp"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
-                android:text="Showers with Sun\n22C-26C"
+                android:text="@string/clear"
                 android:paddingLeft="19px"
                 android:textSize="14sp"/>
         </LinearLayout>
@@ -181,7 +181,7 @@
                 android:layout_height="match_parent"
                 android:paddingLeft="8px"
                 android:paddingRight="8px"
-                android:text="Sat"
+                android:text="@string/Saturday"
                 android:textSize="20sp"
                 android:gravity="center"
                 android:fontFamily="sans-serif"/>
@@ -196,7 +196,7 @@
                 android:layout_width="109dp"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
-                android:text="Showers with Sun\n22C-26C"
+                android:text="@string/clear"
                 android:paddingLeft="19px"
                 android:textSize="14sp"/>
         </LinearLayout>
@@ -212,7 +212,7 @@
                 android:layout_height="match_parent"
                 android:paddingLeft="8px"
                 android:paddingRight="8px"
-                android:text="Sun"
+                android:text="@string/Sunday"
                 android:textSize="20sp"
                 android:gravity="center"
                 android:fontFamily="sans-serif"/>
@@ -227,7 +227,7 @@
                 android:layout_width="109dp"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
-                android:text="Showers with Sun\n22C-26C"
+                android:text="@string/clear"
                 android:paddingLeft="19px"
                 android:textSize="14sp"/>
         </LinearLayout>
