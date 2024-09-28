@@ -1,7 +1,13 @@
 package vn.edu.usth.usthweather;
 
+
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
+import androidx.appcompat.widget.Toolbar;
+
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,16 +22,22 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
 
-import vn.edu.usth.usthweather.R;
-
 public class WeatherActivity extends AppCompatActivity {
 
+    MediaPlayer mediaPlayer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-
+//        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+//            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+//            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+//            return insets;
+//        });
+//        ForecastFragment firstFragment = new ForecastFragment();
+//        getSupportFragmentManager().beginTransaction().add(
+//                R.id.main, firstFragment).commit();
         PagerAdapter adapter = new HomePagerAdapter(getSupportFragmentManager());
         ViewPager pager = findViewById(R.id.pager);
 
@@ -34,6 +46,11 @@ public class WeatherActivity extends AppCompatActivity {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
         tabLayout.setupWithViewPager(pager);
+        mediaPlayer = MediaPlayer.create(this, R.raw.audio1);
+//
+//        mediaPlayer.start();
+        Toolbar Toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(Toolbar);
 
 
 
