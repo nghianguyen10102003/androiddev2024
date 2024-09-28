@@ -15,6 +15,12 @@
 
         <!-- Thêm các thành phần cần thiết ở đây, ví dụ thông tin thời tiết -->
         <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/frame">
+
+        </ImageView>
+        <ImageView
             android:id="@+id/weatherIcon"
             android:layout_width="400px"
             android:layout_height="400px"
