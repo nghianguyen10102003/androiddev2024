@@ -9,9 +9,11 @@
     android:orientation="vertical">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/cardview_light_background"/>
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_action_menu"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="20dp"/>
 
 
     <com.google.android.material.tabs.TabLayout
