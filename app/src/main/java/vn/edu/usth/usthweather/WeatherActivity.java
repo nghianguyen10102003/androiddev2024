@@ -87,8 +87,8 @@ public class WeatherActivity extends AppCompatActivity {
     }
 
     public class HomePagerAdapter extends FragmentPagerAdapter {
-        private final int PAGE_COUNT = 2;
-        private final String[] titles = new String[]{"First", "Second"};
+        private final int PAGE_COUNT = 3;
+        private final String[] titles = new String[]{"Hanoi", "Paris","Tokio"};
 
         public HomePagerAdapter(@NonNull FragmentManager fm) {
             super(fm);
@@ -104,9 +104,11 @@ public class WeatherActivity extends AppCompatActivity {
         public Fragment getItem(int page) {
             switch (page){
                 case 0:
-                    return new WeatherFragment();
+                    return new Hanoi_frag();
                 case 1:
-                    return new ForecastFragment();
+                    return new paris_frag();
+                case 2:
+                    return new tokio_frag();
 
                 default:
                     return new WeatherFragment();

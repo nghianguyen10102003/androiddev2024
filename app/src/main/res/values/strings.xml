@@ -14,5 +14,7 @@
     <string name="mist">mist</string>
     <string name="rain">rain</string>
     <string name="humidity">humidity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
